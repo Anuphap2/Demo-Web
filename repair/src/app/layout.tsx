@@ -21,7 +21,7 @@ export default function RootLayout({
           {children}
         </main>
         <footer className="border-t border-slate-800 bg-slate-950 py-6 text-center text-xs text-slate-500">
-          <p>© 2026 ศูนย์คอมพิวเตอร์ (IT Service Desk & Equipment Loan) · ผลงานพัฒนาโดย อานุภาพ ศรเทียน (Portfolio Web Demo)</p>
+          <p>© 2023 ศูนย์คอมพิวเตอร์ (IT Service Desk & Equipment Loan) · ผลงานพัฒนาโดย อานุภาพ ศรเทียน (Portfolio Web Demo)</p>
         </footer>
         <DemoToolbar />
       </body>

@@ -21,7 +21,7 @@ export default function RootLayout({
           {children}
         </main>
         <footer className="border-t border-zinc-900 bg-zinc-950 py-6 text-center text-xs text-zinc-500">
-          <p>© 2026 N!NJA IT Enterprise Management Suite · ผลงานพัฒนาโดย อานุภาพ ศรเทียน (Portfolio Web Demo)</p>
+          <p>© 2024 N!NJA IT Enterprise Management Suite · ผลงานพัฒนาโดย อานุภาพ ศรเทียน (Portfolio Web Demo)</p>
         </footer>
         <DemoToolbar />
       </body>

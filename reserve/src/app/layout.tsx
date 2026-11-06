@@ -21,7 +21,7 @@ export default function RootLayout({
           {children}
         </main>
         <footer className="border-t border-slate-200 bg-white py-6 text-center text-xs text-slate-500">
-          <p>© 2026 ระบบจองห้องประชุมออนไลน์ (Smart Reservation) · ผลงานพัฒนาโดย อานุภาพ ศรเทียน (Portfolio Web Demo)</p>
+          <p>© 2024 ระบบจองห้องประชุมออนไลน์ (Smart Reservation) · ผลงานพัฒนาโดย อานุภาพ ศรเทียน (Portfolio Web Demo)</p>
         </footer>
         <DemoToolbar />
       </body>
