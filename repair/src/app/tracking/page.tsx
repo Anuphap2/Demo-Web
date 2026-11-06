@@ -93,7 +93,7 @@ function TrackingContent() {
           <Search className="w-4 h-4 text-slate-500 absolute left-3 top-1/2 -translate-y-1/2" />
           <input
             type="text"
-            placeholder="ค้นหาเลขที่คำขอ เช่น BRW-2026-001, REP-2026-001 หรือเบอร์โทร 085-035-2548..."
+            placeholder="ค้นหาเลขที่คำขอ เช่น BRW-2026-001, REP-2026-001 หรือเบอร์โทร 080-000-0002..."
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             className="w-full pl-9 pr-4 py-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-white focus:outline-none focus:border-cyan-400"

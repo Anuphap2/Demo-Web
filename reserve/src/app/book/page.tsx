@@ -30,9 +30,9 @@ function BookingForm() {
   const [timeSlot, setTimeSlot] = useState('morning');
   const [topic, setTopic] = useState('');
   const [departmentId, setDepartmentId] = useState('');
-  const [bookerName, setBookerName] = useState('นายอานุภาพ ศรเทียน');
-  const [phone, setPhone] = useState('085-035-2548');
-  const [email, setEmail] = useState('anuphap.240348@gmail.com');
+  const [bookerName, setBookerName] = useState('นายสมชาย ใจจำลอง');
+  const [phone, setPhone] = useState('080-000-0001');
+  const [email, setEmail] = useState('user.demo@example.ac.th');
   const [attendees, setAttendees] = useState(20);
   const [equipmentNotes, setEquipmentNotes] = useState('');
   const [hasConflict, setHasConflict] = useState(false);

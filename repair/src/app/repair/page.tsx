@@ -16,11 +16,11 @@ export default function RepairTicketPage() {
   const [issueDetails, setIssueDetails] = useState('');
   const [category, setCategory] = useState<RepairCategory>('Hardware');
   const [urgency, setUrgency] = useState<RepairUrgency>('medium');
-  const [departmentName, setDepartmentName] = useState('ภาควิชาวิทยาการคอมพิวเตอร์');
-  const [location, setLocation] = useState('อาคาร 40 ปี ชั้น 3 ห้อง 305');
-  const [contactName, setContactName] = useState('นายอานุภาพ ศรเทียน');
-  const [phone, setPhone] = useState('085-035-2548');
-  const [email, setEmail] = useState('anuphap.240348@gmail.com');
+  const [departmentName, setDepartmentName] = useState('ฝ่ายวิชาการและเทคโนโลยีการศึกษา');
+  const [location, setLocation] = useState('อาคารวิชาการ ชั้น 3 ห้อง 305');
+  const [contactName, setContactName] = useState('นายสมชาย ตัวอย่างดี');
+  const [phone, setPhone] = useState('080-000-0002');
+  const [email, setEmail] = useState('somchai.demo@example.ac.th');
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();

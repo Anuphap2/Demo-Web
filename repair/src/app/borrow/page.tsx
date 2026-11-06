@@ -18,11 +18,11 @@ function BorrowContent() {
   
   // Modal State
   const [selectedDevice, setSelectedDevice] = useState<Device | null>(null);
-  const [borrowerName, setBorrowerName] = useState('นายอานุภาพ ศรเทียน');
-  const [studentId, setStudentId] = useState('6504101348');
-  const [departmentName, setDepartmentName] = useState('ภาควิชาวิทยาการคอมพิวเตอร์');
-  const [phone, setPhone] = useState('085-035-2548');
-  const [email, setEmail] = useState('anuphap.240348@gmail.com');
+  const [borrowerName, setBorrowerName] = useState('นายสมชาย ตัวอย่างดี');
+  const [studentId, setStudentId] = useState('DEMO-STD-889');
+  const [departmentName, setDepartmentName] = useState('สาขาเทคโนโลยีสารสนเทศ (ตัวอย่าง)');
+  const [phone, setPhone] = useState('080-000-0002');
+  const [email, setEmail] = useState('somchai.demo@example.ac.th');
   const [borrowDate, setBorrowDate] = useState(new Date().toISOString().split('T')[0]);
   const [returnDueDate, setReturnDueDate] = useState(new Date(Date.now() + 4 * 86400000).toISOString().split('T')[0]);
   const [purpose, setPurpose] = useState('');

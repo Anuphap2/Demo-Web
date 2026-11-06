@@ -12,10 +12,10 @@ export const INITIAL_PRODUCTS: Product[] = [
 ];
 
 export const INITIAL_CUSTOMERS: Customer[] = [
-  { id: 'c1', code: 'CUST-001', name: 'บริษัท สยามเทคโนโลยี ซิสเต็มส์ จำกัด', taxId: '0105558012341', address: '123/45 ถนนนิมมานเหมินท์ ต.สุเทพ อ.เมือง จ.เชียงใหม่ 50200', phone: '053-221-889', email: 'contact@siamtech.co.th', branch: 'สำนักงานใหญ่' },
-  { id: 'c2', code: 'CUST-002', name: 'หจก. ล้านนา ดิจิทัล โซลูชั่นส์', taxId: '0503559008762', address: '88 หมู่ 5 ต.หนองป่าครั่ง อ.เมือง จ.เชียงใหม่ 50000', phone: '081-992-3344', email: 'account@lannadigital.com', branch: 'สำนักงานใหญ่' },
-  { id: 'c3', code: 'CUST-003', name: 'มหาวิทยาลัยเชียงใหม่ (คณะวิศวกรรมศาสตร์)', taxId: '0994000164808', address: '239 ถนนห้วยแก้ว ต.สุเทพ อ.เมือง จ.เชียงใหม่ 50200', phone: '053-944-100', email: 'procure@eng.cmu.ac.th', branch: 'คณะวิศวกรรมศาสตร์' },
-  { id: 'c4', code: 'CUST-004', name: 'บริษัท เวียงพิงค์ โฮเต็ล แอนด์ รีสอร์ท จำกัด', taxId: '0505553001129', address: '15/2 ถนนช้างคลาน ต.ช้างคลาน อ.เมือง จ.เชียงใหม่ 50100', phone: '053-270-051', email: 'it@viangpinghotel.com', branch: 'สำนักงานใหญ่' },
+  { id: 'c1', code: 'CUST-001', name: 'บริษัท เดโม อินโนเวชั่น จำกัด (สำนักงานใหญ่)', taxId: '0105599000011', address: '123/45 ถนนสุขุมวิท 71 แขวงคลองตันเหนือ เขตวัฒนา กรุงเทพฯ 10110', phone: '02-000-1111', email: 'contact@demo-innovation.co.th', branch: 'สำนักงานใหญ่' },
+  { id: 'c2', code: 'CUST-002', name: 'หจก. ดิจิทัล โซลูชั่นส์ ตัวอย่าง', taxId: '0105599000022', address: '88 หมู่ 1 ถนนสมมุติพัฒนา ต.ช้างเผือก อ.เมือง จ.เชียงใหม่ 50300', phone: '053-000-222', email: 'account@example-solutions.com', branch: 'สำนักงานใหญ่' },
+  { id: 'c3', code: 'CUST-003', name: 'สถาบันเทคโนโลยีและนวัตกรรมตัวอย่าง (Demo Institute)', taxId: '0994000999999', address: '99 ถนนมหาวิทยาลัยจำลอง ต.สุเทพ อ.เมือง จ.เชียงใหม่ 50200', phone: '053-000-333', email: 'procurement@demo-institute.ac.th', branch: 'คณะเทคโนโลยีสารสนเทศ' },
+  { id: 'c4', code: 'CUST-004', name: 'บริษัท บลูสกาย รีสอร์ท แอนด์ สปา จำกัด', taxId: '0105599000044', address: '15/2 ถนนสายทะเล ต.หาดสมมุติ อ.เมือง จ.ภูเก็ต 83000', phone: '076-000-444', email: 'it-support@bluesky-resort.demo', branch: 'สำนักงานใหญ่' },
 ];
 
 export const INITIAL_INVOICES: Invoice[] = [
@@ -25,7 +25,7 @@ export const INITIAL_INVOICES: Invoice[] = [
     date: '2026-03-01',
     dueDate: '2026-03-31',
     customerId: 'c1',
-    customerName: 'บริษัท สยามเทคโนโลยี ซิสเต็มส์ จำกัด',
+    customerName: 'บริษัท เดโม อินโนเวชั่น จำกัด (สำนักงานใหญ่)',
     items: [
       { productId: 'p1', productName: 'Server Dell PowerEdge R450', quantity: 1, costPrice: 65000, sellPrice: 89000, discount: 0, total: 89000, profit: 24000 },
       { productId: 'p5', productName: 'SSD Samsung 990 PRO 2TB NVMe', quantity: 2, costPrice: 4200, sellPrice: 5900, discount: 0, total: 11800, profit: 3400 },
@@ -40,7 +40,7 @@ export const INITIAL_INVOICES: Invoice[] = [
     profit: 27400,
     status: 'paid',
     taxYear: 2026,
-    paymentMethod: 'โอนผ่านธนาคารกสิกรไทย',
+    paymentMethod: 'โอนผ่านธนาคารตัวอย่าง',
     slipUrl: '/images/logo.png',
     slipVerified: true,
   },
@@ -50,7 +50,7 @@ export const INITIAL_INVOICES: Invoice[] = [
     date: '2026-03-05',
     dueDate: '2026-04-05',
     customerId: 'c3',
-    customerName: 'มหาวิทยาลัยเชียงใหม่ (คณะวิศวกรรมศาสตร์)',
+    customerName: 'สถาบันเทคโนโลยีและนวัตกรรมตัวอย่าง (Demo Institute)',
     items: [
       { productId: 'p3', productName: 'Switch Cisco Catalyst 24-Port Gigabit', quantity: 2, costPrice: 14500, sellPrice: 19500, discount: 0, total: 39000, profit: 10000 },
       { productId: 'p4', productName: 'Access Point Ubiquiti UniFi U6-Pro', quantity: 4, costPrice: 4800, sellPrice: 6900, discount: 0, total: 27600, profit: 8400 },
@@ -73,7 +73,7 @@ export const INITIAL_INVOICES: Invoice[] = [
     date: '2026-03-10',
     dueDate: '2026-04-10',
     customerId: 'c2',
-    customerName: 'หจก. ล้านนา ดิจิทัล โซลูชั่นส์',
+    customerName: 'หจก. ดิจิทัล โซลูชั่นส์ ตัวอย่าง',
     items: [
       { productId: 'p2', productName: 'Notebook Lenovo ThinkPad E14 Gen 5', quantity: 3, costPrice: 22000, sellPrice: 28900, discount: 1000, total: 85700, profit: 19700 },
       { productId: 'p8', productName: 'Windows 11 Pro 64-bit OEM License', quantity: 3, costPrice: 3800, sellPrice: 5200, discount: 0, total: 15600, profit: 4200 },
@@ -95,7 +95,7 @@ export const INITIAL_INVOICES: Invoice[] = [
     date: '2026-03-14',
     dueDate: '2026-04-14',
     customerId: 'c4',
-    customerName: 'บริษัท เวียงพิงค์ โฮเต็ล แอนด์ รีสอร์ท จำกัด',
+    customerName: 'บริษัท บลูสกาย รีสอร์ท แอนด์ สปา จำกัด',
     items: [
       { productId: 'p6', productName: 'UPS APC Easy UPS 1500VA', quantity: 2, costPrice: 7800, sellPrice: 10500, discount: 0, total: 21000, profit: 5400 },
     ],
@@ -119,7 +119,7 @@ export const INITIAL_QUOTATIONS: Quotation[] = [
     date: '2026-03-12',
     validDays: 30,
     customerId: 'c4',
-    customerName: 'บริษัท เวียงพิงค์ โฮเต็ล แอนด์ รีสอร์ท จำกัด',
+    customerName: 'บริษัท บลูสกาย รีสอร์ท แอนด์ สปา จำกัด',
     items: [
       { productId: 'p4', productName: 'Access Point Ubiquiti UniFi U6-Pro', quantity: 8, costPrice: 4800, sellPrice: 6900, discount: 0, total: 55200, profit: 16800 },
       { productId: 'p3', productName: 'Switch Cisco Catalyst 24-Port Gigabit', quantity: 1, costPrice: 14500, sellPrice: 19500, discount: 0, total: 19500, profit: 5000 },
@@ -137,7 +137,7 @@ export const INITIAL_QUOTATIONS: Quotation[] = [
     date: '2026-03-15',
     validDays: 15,
     customerId: 'c1',
-    customerName: 'บริษัท สยามเทคโนโลยี ซิสเต็มส์ จำกัด',
+    customerName: 'บริษัท เดโม อินโนเวชั่น จำกัด (สำนักงานใหญ่)',
     items: [
       { productId: 'p2', productName: 'Notebook Lenovo ThinkPad E14 Gen 5', quantity: 5, costPrice: 22000, sellPrice: 28900, discount: 2000, total: 142500, profit: 32500 },
     ],
@@ -146,15 +146,15 @@ export const INITIAL_QUOTATIONS: Quotation[] = [
     vatAmount: 9975,
     grandTotal: 152475,
     status: 'approved',
-    notes: 'ลูกค้าเซ็นต์อนุมัติใบเสนอราคาแล้ว รอกำหนดเปิดบิล',
+    notes: 'อนุมัติใบเสนอราคาตามเงื่อนไขตัวอย่าง',
   },
 ];
 
 export const INITIAL_EXPENSES: Expense[] = [
-  { id: 'exp-1', date: '2026-03-02', title: 'ค่าจัดส่งสินค้าและขนส่งด่วน Flash Express', category: 'ขนส่ง', amount: 1450, paidTo: 'Flash Express', paymentMethod: 'เงินสด', receiptNo: 'FL-998231' },
-  { id: 'exp-2', date: '2026-03-05', title: 'ค่าภาษีมูลค่าเพิ่ม ภ.พ. 30 ประจำเดือน', category: 'ภาษี', amount: 4820, paidTo: 'กรมสรรพากร', paymentMethod: 'โอนเงิน', receiptNo: 'RD-2026-03-01' },
-  { id: 'exp-3', date: '2026-03-08', title: 'ซื้อหัว RJ45 และกล่องพักสายเคเบิล', category: 'วัสดุอุปกรณ์', amount: 2600, paidTo: 'บจก. ซีทีไอ ซัพพลาย', paymentMethod: 'โอนเงิน', receiptNo: 'CTI-8812' },
-  { id: 'exp-4', date: '2026-03-12', title: 'ค่าอินเทอร์เน็ตสำนักงานความเร็วสูง 1Gbps', category: 'สาธารณูปโภค', amount: 1290, paidTo: 'NT Broadband', paymentMethod: 'หักบัญชี', receiptNo: 'NT-55441' },
+  { id: 'exp-1', date: '2026-03-02', title: 'ค่าจัดส่งพัสดุด่วนโลจิสติกส์ตัวอย่าง', category: 'ขนส่ง', amount: 1450, paidTo: 'บจก. โลจิสติกส์ เอ็กซ์เพรส (จำลอง)', paymentMethod: 'เงินสด', receiptNo: 'LOG-99001' },
+  { id: 'exp-2', date: '2026-03-05', title: 'ค่าภาษีมูลค่าเพิ่ม ภ.พ. 30 ประจำเดือน (จำลอง)', category: 'ภาษี', amount: 4820, paidTo: 'กรมสรรพากร (ตัวอย่าง)', paymentMethod: 'โอนเงิน', receiptNo: 'RD-DEMO-03' },
+  { id: 'exp-3', date: '2026-03-08', title: 'ซื้อหัวต่อสัญญาณและกล่องพักสาย', category: 'วัสดุอุปกรณ์', amount: 2600, paidTo: 'ร้านอุปกรณ์เน็ตเวิร์กตัวอย่าง', paymentMethod: 'โอนเงิน', receiptNo: 'EXP-8812' },
+  { id: 'exp-4', date: '2026-03-12', title: 'ค่าอินเทอร์เน็ตความเร็วสูงประจำสำนักงาน', category: 'สาธารณูปโภค', amount: 1290, paidTo: 'ผู้ให้บริการอินเทอร์เน็ตจำลอง', paymentMethod: 'หักบัญชี', receiptNo: 'ISP-55441' },
 ];
 
 class NinjaStore {

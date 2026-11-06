@@ -546,10 +546,10 @@ export default function InvoicesPage() {
             <div className="space-y-6 text-xs leading-relaxed">
               <div className="flex justify-between items-start border-b pb-6">
                 <div className="space-y-1">
-                  <h2 className="text-xl font-black tracking-tight text-zinc-950">N!NJA IT ENTERPRISE</h2>
-                  <p className="text-zinc-600 font-medium">บจก. นินจา ไอที ซิสเต็มส์ แอนด์ โซลูชั่นส์</p>
-                  <p className="text-zinc-500">เลขประจำตัวผู้เสียภาษี: 0505566019921 (สำนักงานใหญ่)</p>
-                  <p className="text-zinc-500">โทร: 053-998-812 · อีเมล: billing@ninjait.co.th</p>
+                  <h2 className="text-xl font-black tracking-tight text-zinc-950">N!NJA IT DEMO ENTERPRISE</h2>
+                  <p className="text-zinc-600 font-medium">บจก. นินจา ไอที ซิสเต็มส์ แอนด์ โซลูชั่นส์ (ตัวอย่าง)</p>
+                  <p className="text-zinc-500">เลขประจำตัวผู้เสียภาษี: 0105500000000 (สำนักงานใหญ่)</p>
+                  <p className="text-zinc-500">โทร: 02-000-0000 · อีเมล: billing@demo-enterprise.com</p>
                 </div>
                 <div className="text-right space-y-1">
                   <div className="inline-block px-3 py-1 bg-zinc-900 text-white font-extrabold text-sm rounded">
