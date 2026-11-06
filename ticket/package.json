@@ -1,0 +1,22 @@
+{
+  "name": "ticket-demo-workspace",
+  "version": "1.0.0",
+  "description": "Concert Ticket Booking System - Portfolio Web Demo",
+  "scripts": {
+    "dev": "npm --prefix ticket-frontend run dev",
+    "build": "npm --prefix ticket-frontend run build",
+    "start": "npm --prefix ticket-frontend run start",
+    "dev:frontend": "npm --prefix ticket-frontend run dev",
+    "dev:backend": "npm --prefix ticket-backend run start:dev",
+    "install:all": "npm --prefix ticket-frontend install --legacy-peer-deps && npm --prefix ticket-backend install"
+  },
+  "keywords": [
+    "ticket-booking",
+    "nextjs",
+    "nestjs",
+    "portfolio-demo",
+    "high-concurrency"
+  ],
+  "author": "Anuphap",
+  "license": "MIT"
+}

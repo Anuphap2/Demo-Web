@@ -1,0 +1,27 @@
+{
+  "name": "demo-web-portfolio-workspace",
+  "version": "1.0.0",
+  "description": "Portfolio Web Demos for Anuphap Sornthian (https://anuphap.vercel.app/)",
+  "scripts": {
+    "dev:ninja": "npm --prefix ninja run dev",
+    "dev:reserve": "npm --prefix reserve run dev",
+    "dev:repair": "npm --prefix repair run dev",
+    "dev:ticket": "npm --prefix ticket run dev",
+    "build:ninja": "npm --prefix ninja run build",
+    "build:reserve": "npm --prefix reserve run build",
+    "build:repair": "npm --prefix repair run build",
+    "build:ticket": "npm --prefix ticket run build",
+    "build:all": "npm run build:ninja && npm run build:reserve && npm run build:repair"
+  },
+  "keywords": [
+    "portfolio-demos",
+    "nextjs",
+    "react",
+    "standalone-web-demo",
+    "erp",
+    "reservation-system",
+    "helpdesk"
+  ],
+  "author": "Anuphap Sornthian <anuphap.240348@gmail.com>",
+  "license": "MIT"
+}

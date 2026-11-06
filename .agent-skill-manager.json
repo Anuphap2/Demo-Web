@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "modes": [
+    "agent"
+  ],
+  "managedFiles": {
+    "AGENTS.md": {
+      "sha256": "688cf2eca0d21c04ce2c1f02963ec842cc26b8ec18a23e955024648d8f105381",
+      "managedBlockSha256": "688cf2eca0d21c04ce2c1f02963ec842cc26b8ec18a23e955024648d8f105381"
+    },
+    ".agents/project/project-context.md": {
+      "sha256": "334fca4f175691729dff443649721bbb395fe669ad5ac40ba24b9af286a73a3a"
+    },
+    ".agents/project/architecture.md": {
+      "sha256": "6df411acdd7ba303b73632e98ffb0a2aaf38097e9f1895ecbbd2e9c27be8afda"
+    },
+    ".agents/project/technical-debt.md": {
+      "sha256": "9fe2a174a6913a5374c28e073aaada287209212fffca6cde22f39ba8df30b298"
+    },
+    ".agents/project/subagent-contract.md": {
+      "sha256": "c24d63a613f50ec6a407ae12f0d6f8e2408a85f77a41532f610d3e766d53c6ed"
+    },
+    ".agents/project/agent-manager-config.json": {
+      "sha256": "21efc4dfdfc1607a0b9b799c232ce1a6eae0906d2ab9c6c87659d9cb0c4ac41e"
+    },
+    ".agents/skills/core-no-assumptions/SKILL.md": {
+      "sha256": "38a4091ccbfc0c6b72fa22e0468070e07cbd00623aa94ef345c607bc18b4a20c"
+    },
+    ".agents/skills/developer-implementation/SKILL.md": {
+      "sha256": "0650ca65ce2e6944a7c55e3d90c803048955d59ece10d27ca517056167a03fc8"
+    },
+    ".agents/skills/frontend-design-anti-slop/SKILL.md": {
+      "sha256": "3b17d66a8c2816693a9544288470617f81bb5f6477d4f2780713f858cdcb2a14"
+    },
+    ".agents/skills/frontend-nextjs-app-router/SKILL.md": {
+      "sha256": "0f1c74a7b19e816539079aeab96bc10b8ce65794b19fdb2b6da1b029a816f2c3"
+    },
+    ".agents/skills/frontend-react-best-practices/SKILL.md": {
+      "sha256": "09a9c294f6ad7e0690ddff0738ccfe79ca668c19fc2b52baec051290f94c9f35"
+    },
+    ".agents/skills/frontend-shadcn/SKILL.md": {
+      "sha256": "9420e4699712f18a620e29ce634c925de0101fed42b0d9f39e5cb8010f3243f2"
+    },
+    ".agents/skills/frontend-tailwind/SKILL.md": {
+      "sha256": "66e6479c2856180bcf264e17ad38cd19832f6b88debff23d7e4cfb26a7bee017"
+    },
+    ".agents/skills/frontend-ui-ux-pro-max/SKILL.md": {
+      "sha256": "2f691d3ab3f6ba1ab321fd3d5a760c4b637a8c21e11ab9bb316da75188819d47"
+    },
+    ".agents/skills/frontend-web-design-guidelines/SKILL.md": {
+      "sha256": "5040ed26c4171f208af1595da151f94d7151cf5ffa065be6ed2160bd5cc93ad0"
+    },
+    ".agents/skills/loop-test-tdd-cycle/SKILL.md": {
+      "sha256": "d5dc3f8d246387582fa9ec96666267695423e9d16b517d8483fe62f5c5d42cc7"
+    },
+    ".agents/agents/engineering-team/agent.md": {
+      "sha256": "e15956fc1e85052e0880bb585b775d4325346d9f714ae7566ec51a11c3b25385"
+    },
+    ".agents/rules/00-engineering-team.md": {
+      "sha256": "a78aebaf43c18fd486cd2ab39806d1236b917adf70c10b336f0bf019f4e856e1"
+    },
+    ".agents/agents/reviewer/agent.md": {
+      "sha256": "8fb1c45162419a96606c6aebde7fa82c53bc95513d33095f908464c68ed253b3"
+    },
+    ".agents/agents/ui-designer/agent.md": {
+      "sha256": "6349fdc7ae13475f7ad5c13f3c0c2fd83684600cae058500e8687cee9e2fbc5e"
+    },
+    ".agents/agents/developer/agent.md": {
+      "sha256": "e478b6c2c7ca248d6a21f41dfb249301ae34d682fdc69b5112ccfcdcc5ad3598"
+    },
+    ".codex/agents/skill-manager-reviewer.toml": {
+      "sha256": "7652b0dfd1fcc9c8c7eeb8c8214ca8dd8780a69ddb7f6a142d2d22316a363a3f"
+    },
+    ".codex/agents/skill-manager-ui-designer.toml": {
+      "sha256": "545b57b6ec937ad8ff53d64bfab370a0194778c5abafdf4236081148c0bb6bdb"
+    },
+    ".codex/agents/skill-manager-developer.toml": {
+      "sha256": "d027a9d8fe693793a51d64889a3e0db39ee5f9a07a4524fa78178423f8900907"
+    }
+  }
+}
